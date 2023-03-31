@@ -1,0 +1,37 @@
+{
+    "expname": "demo",
+    "GPU": "0",
+    "val": true,
+
+
+    "data_parameter": {
+        "fold": 1,
+        "modules": [
+            "PET"
+        ],
+        "transforms": "ScaleIntensity",
+        "resize_x": 128,
+        "resize_y": 128,
+        "resize_z": 256,
+        "auto_parameter": false,
+        "data_path": "D:\\dyh\\class\\dataset\\Task015_PETscore2class01"
+    },
+
+    
+    "train_parameter": {
+        "epoch": 1000,
+        "val_per_epoch": 10,
+        "batch_size": 2,
+        "learn_rate": 0.01,
+        "lr_decay": true,
+        "save_dir": "d:\\dyh\\class_pet",
+        "save_best_metric": true
+
+    },
+    "model_parameter": {
+        "model": "Dense",
+        "output_class": 2,
+        "spatial_dims":3
+
+    }
+}

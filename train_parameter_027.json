@@ -1,0 +1,24 @@
+{
+    "taskname": "task0027-256-2class",
+    "data_path": "D:\\dyh\\class\\dataset\\Task015_PETscore2class01",
+    "modules": [
+        "PET"
+    ],
+    "GPU": "0",
+    "train_transforms": "todo",
+    "val": true,
+    "fold": 4,
+    "val_per_epoch": 10,
+    "save_best_metric": true,
+    "epoch": 1000,
+    "save_dir": "d:\\dyh\\class_pet",
+    "model": "todo",
+    "batch_size": 2,
+    "learn_rate": 0.01,
+    "lr_decay": true,
+    "auto_parameter": false,
+    "class_num": 2,
+    "resize_x": 256,
+    "resize_y": 256,
+    "resize_z": 256
+}
