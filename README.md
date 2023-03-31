@@ -1,0 +1,2 @@
+# monai_classification
+本项目是基于MONAI框架集成的2D和3D分类脚本：1.可通过monai.networks.nets改变经典网络；2.集成了scikit-learn的画图函数，用于绘制Loss图和Precision图还有一些二分类、三分类的评价图等
